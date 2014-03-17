@@ -157,36 +157,36 @@
 
   { "keys": ["ctrl+x", "o"], "command": "sbp_cycle_focus_group"},
   { "keys": ["ctrl+x", "5", "2"], "command": "new_window" },
-  {
-    "keys": ["ctrl+x", "2"],
-    "command": "set_layout",
-    "args":
-    {
-      "cols": [0.0, 1.0],
-      "rows": [0.0, 0.5, 1.0],
-      "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
-    }
-  },
-  {
-    "keys": ["ctrl+x", "1"],
-    "command": "set_layout",
-    "args":
-    {
-      "cols": [0.0, 1.0],
-      "rows": [0.0, 1.0],
-      "cells": [[0, 0, 1, 1]]
-    }
-  },
-  {
-    "keys": ["ctrl+x", "3"],
-    "command": "set_layout",
-    "args":
-    {
-      "cols": [0.0, 0.5, 1.0],
-      "rows": [0.0, 1.0],
-      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-    }
-  },
+  // {
+  //   "keys": ["ctrl+x", "2"],
+  //   "command": "set_layout",
+  //   "args":
+  //   {
+  //     "cols": [0.0, 1.0],
+  //     "rows": [0.0, 0.5, 1.0],
+  //     "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+  //   }
+  // },
+  // {
+  //   "keys": ["ctrl+x", "1"],
+  //   "command": "set_layout",
+  //   "args":
+  //   {
+  //     "cols": [0.0, 1.0],
+  //     "rows": [0.0, 1.0],
+  //     "cells": [[0, 0, 1, 1]]
+  //   }
+  // },
+  // {
+  //   "keys": ["ctrl+x", "3"],
+  //   "command": "set_layout",
+  //   "args":
+  //   {
+  //     "cols": [0.0, 0.5, 1.0],
+  //     "rows": [0.0, 1.0],
+  //     "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+  //   }
+  // },
 
   // Search word under cursor in current file
   { "keys": ["ctrl+x", "ctrl+d"], "command": "find_under_expand_skip" },
