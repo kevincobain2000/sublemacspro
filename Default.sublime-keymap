@@ -152,9 +152,10 @@
   { "keys": ["ctrl+x", "ctrl+f"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
   { "keys": ["alt+g", "alt+g"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true, "text" : ":"}},
   { "keys": ["ctrl+alt+g"], "command": "show_overlay", "args": {"overlay":"goto", "show_files" : false, "text": "@"}},
-  { "keys": ["ctrl+x", "b"], "command": "prev_view_in_stack" },
+
   { "keys": ["ctrl+x", "n"], "command": "next_view_in_stack" },
-  { "keys": ["ctrl+x", "ctrl+b"], "command": "goto_open_file"},
+  { "keys": ["ctrl+x", "p"], "command": "prev_view_in_stack" },
+  { "keys": ["ctrl+x", "b"], "command": "goto_open_file"},
 
   { "keys": ["ctrl+x", "o"], "command": "sbp_cycle_focus_group"},
   { "keys": ["ctrl+x", "5", "2"], "command": "new_window" },
