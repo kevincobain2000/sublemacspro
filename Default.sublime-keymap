@@ -154,6 +154,7 @@
   { "keys": ["ctrl+alt+g"], "command": "show_overlay", "args": {"overlay":"goto", "show_files" : false, "text": "@"}},
 
   { "keys": ["ctrl+x", "n"], "command": "next_view_in_stack" },
+  { "keys": ["ctrl+x", "p"], "command": "prev_view_in_stack" },
   { "keys": ["ctrl+x", "b"], "command": "goto_open_file"},
 
   { "keys": ["ctrl+x", "o"], "command": "sbp_cycle_focus_group"},
